@@ -1,13 +1,13 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
+  author: 'Ariel Conde',
+  title: 'Product design portfolio',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'hola@arielcnd.com',
   socialLinks: [
     {
       text: 'GitHub',
@@ -28,7 +28,7 @@ export const siteConfig = {
     },
     {
       text: 'Instagram',
-      href: '',
+      href: 'https://www.instagram.com/arielc_nd_/',
       icon: 'i-simple-icons-instagram',
     },
     {
@@ -80,20 +80,16 @@ export const siteConfig = {
   footer: {
     navLinks: [
       {
-        text: 'Posts Props',
-        href: '/posts-props',
+        text: 'Legal notice',
+        href: '/legal-notice',
       },
       {
-        text: 'Markdown Style',
-        href: '/md-style',
+        text: 'Privacy policy',
+        href: '/privacy-policy',
       },
       {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
+        text: 'Cookies policy',
+        href: '/privacy-policy',
       },
     ],
   },
